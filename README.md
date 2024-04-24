@@ -1,5 +1,6 @@
 # react-node-experiment
 My First React and Node.JS Project
+This is a personal movie recommendation list that can be updated and added to according to preference
 
 1. Open 2 terminals
 1. In the first one. Navigate to the `ui` directory
