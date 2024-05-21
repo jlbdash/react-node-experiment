@@ -1,5 +1,5 @@
 import "./App.css";
-import Movies from "./Add.js";
+import AddMovies from "./Add.js";
 import MovieRow from "./MovieRow.js";
 import Updater from "./Update.js";
 import { useEffect, useState } from 'react';
