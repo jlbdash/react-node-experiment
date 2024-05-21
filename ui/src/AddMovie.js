@@ -21,10 +21,10 @@ const onSubmit = (event) => {
             Add to the List!
 
             <form name="handlemovie" id="handlemovie" onSubmit={onSubmit}>
-                <label>Title: <input type="text" name="name" id="name" required /> </label> <br />
-                <label>Genre: <input type="text" name="genre" id="genre" required /></label> <br />
-                <label>Release Date: <input type="text" name="date" id="date" required /></label> <br />
-                <label>Rating: <input type="text" name="rating" id="rating" required /></label> <br />
+                <label>Title: <input type="text" name="name" id="name" onChange={(event) => setMovie({ ...movie, name: event.target.value })} required /> </label> <br />
+                <label>Genre: <input type="text" name="genre" id="genre" onChange={(event) => setMovie({ ...movie, genre: event.target.value })} required /></label> <br />
+                <label>Release Date: <input type="text" name="date" id="date" onChange={(event) => setMovie({ ...movie, date: event.target.value })} required /></label> <br />
+                <label>Rating: <input type="text" name="rating" id="rating" onChange={(event) => setMovie({ ...movie, rating: event.target.value })} required /></label> <br />
                 <input type="submit" value="Submit" />
             </form>
         </>
