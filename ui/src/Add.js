@@ -1,6 +1,6 @@
 import "./App.css";
 
-function Movies(props) {
+function AddMovies(props) {
 
 const onSubmit = (event) => {
     // prevent the form from doing it's normal job, we want to do everything async
@@ -31,4 +31,4 @@ const onSubmit = (event) => {
 
 }
 
-export default Movies;
+export default AddMovies;
