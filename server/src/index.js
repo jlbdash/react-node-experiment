@@ -65,7 +65,7 @@ app.get("/read", (req, res) => {
 
 
 // Create an endpoint called /update that responds with nothing but updates the entry
-app.post("/update/", urlencodedParser, (req, res) => {
+app.post("/movie/:id/", urlencodedParser, (req, res) => {
     var response = {
         id: req.body.id,
         name: req.body.name,
