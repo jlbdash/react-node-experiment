@@ -52,7 +52,7 @@ function App() {
                 <div className="buttons">
                     <div className="App-row">
                         <div>
-                            <Movies />
+                            <AddMovie onChange={populateMovieData} />
                         </div>
                         <div>
                             <Updater movie={selectedMovie} />
