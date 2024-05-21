@@ -1,6 +1,7 @@
 import "./App.css";
 
-function AddMovies(props) {
+function AddMovie(props) {
+const [movie, setMovie] = useState(defaultMovie);
 
 const onSubmit = (event) => {
     // prevent the form from doing it's normal job, we want to do everything async
@@ -31,4 +32,4 @@ const onSubmit = (event) => {
 
 }
 
-export default AddMovies;
+export default AddMovie;
